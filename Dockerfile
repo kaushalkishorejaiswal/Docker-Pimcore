@@ -47,7 +47,7 @@ RUN apt-get install -y zip unzip
 ENV MYSQL_USER root
 ENV MYSQL_PASS root
 
-# Wordpress Database name
+# Pimcore Database name
 ENV PIMCORE_DBNAME pimcore
 
 # Add MySQL utils
